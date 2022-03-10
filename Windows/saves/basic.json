@@ -220,7 +220,7 @@
             "desc": "个人博客",
             "icon": {
                 "type": "img",
-                "content": "https://cdn.jsdelivr.net/gh/zhaoze-jpg/Xianqi@main/img/avatar.jpg",
+                "content": "https://s1.ax1x.com/2022/03/10/b4rkSx.jpg",
                 "bg": "#6b96cf"
             },
             "openMode": "normal",
@@ -241,7 +241,7 @@
                 "width": "x*0.8"
             },
             "title": "个人博客",
-            "url": "http://ze520.cn",
+            "url": "https://serein.icu/",
             "customTile": "",
             "urlRandomToken": true
         },
