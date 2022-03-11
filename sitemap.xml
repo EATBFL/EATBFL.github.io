@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://serein.icu/List/gallery/index.html</loc>
+    
+    <lastmod>2022-03-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://serein.icu/List/music/index.html</loc>
     
     <lastmod>2022-03-11</lastmod>
@@ -33,13 +40,6 @@
     <loc>https://serein.icu/comments/index.html</loc>
     
     <lastmod>2021-11-23</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://serein.icu/List/gallery/index.html</loc>
-    
-    <lastmod>2021-10-14</lastmod>
     
   </url>
   
