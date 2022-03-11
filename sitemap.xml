@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://serein.icu/List/movies/index.html</loc>
+    
+    <lastmod>2022-03-11</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://serein.icu/List/gallery/index.html</loc>
     
     <lastmod>2022-03-11</lastmod>
@@ -10,13 +17,6 @@
   
   <url>
     <loc>https://serein.icu/List/music/index.html</loc>
-    
-    <lastmod>2022-03-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://serein.icu/List/movies/index.html</loc>
     
     <lastmod>2022-03-11</lastmod>
     
