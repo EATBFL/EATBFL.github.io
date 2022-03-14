@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Vue2进阶知识</title>
+      <link href="/posts/3.html"/>
+      <url>/posts/3.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="进阶知识篇"><a href="#进阶知识篇" class="headerlink" title="进阶知识篇"></a>进阶知识篇</h1>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Vue2基础知识</title>
       <link href="/posts/2.html"/>
       <url>/posts/2.html</url>

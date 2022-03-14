@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://serein.icu/posts/3.html</loc>
+    
+    <lastmod>2022-03-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://serein.icu/posts/2.html</loc>
     
     <lastmod>2022-03-14</lastmod>
@@ -110,6 +117,13 @@
   
   <url>
     <loc>https://serein.icu/tags/Vue2/</loc>
+    <lastmod>2022-03-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://serein.icu/tags/Vue/</loc>
     <lastmod>2022-03-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
