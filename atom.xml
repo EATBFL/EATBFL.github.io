@@ -6,7 +6,7 @@
   <link href="https://serein.icu/atom.xml" rel="self"/>
   
   <link href="https://serein.icu/"/>
-  <updated>2022-03-16T09:38:53.675Z</updated>
+  <updated>2022-03-18T10:25:35.817Z</updated>
   <id>https://serein.icu/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ES6学习笔记</title>
+    <link href="https://serein.icu/posts/5.html"/>
+    <id>https://serein.icu/posts/5.html</id>
+    <published>2022-03-18T11:00:00.000Z</published>
+    <updated>2022-03-18T10:25:35.817Z</updated>
+    
+    <content type="html"><![CDATA[<embed src="./ES6学习笔记.pdf" width="100%" height="750" type="application/pdf"><!-- 第二种方式 --><!-- <div class="row">    <embed src="./mysql.pdf" width="100%" height="550" type="application/pdf"></div> -->]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;embed src=&quot;./ES6学习笔记.pdf&quot; width=&quot;100%&quot; height=&quot;750&quot; type=&quot;application/pdf&quot;&gt;
+
+&lt;!-- 第二种方式 --&gt;
+&lt;!-- 
+
+	&lt;div class=&quot;row&quot;&gt;
+    &lt;embed src=&quot;./mys</summary>
+      
+    
+    
+    
+    <category term="JavaScript" scheme="https://serein.icu/categories/JavaScript/"/>
+    
+    
+    <category term="js" scheme="https://serein.icu/tags/js/"/>
+    
+    <category term="ES6" scheme="https://serein.icu/tags/ES6/"/>
+    
+  </entry>
   
   <entry>
     <title>Vue3快速上手</title>

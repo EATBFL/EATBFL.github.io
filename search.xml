@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>ES6学习笔记</title>
+      <link href="/posts/5.html"/>
+      <url>/posts/5.html</url>
+      
+        <content type="html"><![CDATA[<embed src="./ES6学习笔记.pdf" width="100%" height="750" type="application/pdf"><!-- 第二种方式 --><!-- <div class="row">    <embed src="./mysql.pdf" width="100%" height="550" type="application/pdf"></div> -->]]></content>
+      
+      
+      <categories>
+          
+          <category> JavaScript </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> js </tag>
+            
+            <tag> ES6 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Vue3快速上手</title>
       <link href="/posts/4.html"/>
       <url>/posts/4.html</url>
