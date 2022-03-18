@@ -6,7 +6,7 @@
   <link href="https://serein.icu/atom.xml" rel="self"/>
   
   <link href="https://serein.icu/"/>
-  <updated>2022-03-18T12:51:07.760Z</updated>
+  <updated>2022-03-18T13:10:52.321Z</updated>
   <id>https://serein.icu/</id>
   
   <author>
@@ -20,16 +20,16 @@
     <title>ES6学习笔记</title>
     <link href="https://serein.icu/posts/5.html"/>
     <id>https://serein.icu/posts/5.html</id>
-    <published>2022-03-18T11:00:00.000Z</published>
-    <updated>2022-03-18T12:51:07.760Z</updated>
+    <published>2022-03-18T13:00:00.000Z</published>
+    <updated>2022-03-18T13:10:52.321Z</updated>
     
-    <content type="html"><![CDATA[<embed src="./ES6.pdf" width="100%" height="750" type="application/pdf">]]></content>
+    <content type="html"><![CDATA[<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><ul><li>ES6， 全称 ECMAScript 6.0 ，是 JavaScript 的下一个版本标准，2015.06 发版。 主要是为了解决 ES5 的先天不足，比如 JavaScript 里并没有类的概念，但是目前浏览器的 JavaScript 是 ES5 版本，大多数高版本的浏览器也支持 ES6，不过只实现了 ES6 的部分特性和功能。</li></ul><embed src="./5/ES6.pdf" width="100%" height="750" type="application/pdf">]]></content>
     
     
       
       
-    <summary type="html">&lt;embed src=&quot;./ES6.pdf&quot; width=&quot;100%&quot; height=&quot;750&quot; type=&quot;application/pdf&quot;&gt;
-</summary>
+    <summary type="html">&lt;h1 id=&quot;简介&quot;&gt;&lt;a href=&quot;#简介&quot; class=&quot;headerlink&quot; title=&quot;简介&quot;&gt;&lt;/a&gt;简介&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;ES6， 全称 ECMAScript 6.0 ，是 JavaScript 的下一个版本标准，2015.06 发版。 主要是为了解</summary>
       
     
     
