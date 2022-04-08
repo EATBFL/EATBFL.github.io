@@ -6,7 +6,7 @@
   <link href="https://serein.icu/atom.xml" rel="self"/>
   
   <link href="https://serein.icu/"/>
-  <updated>2022-04-08T03:46:45.377Z</updated>
+  <updated>2022-04-08T05:46:33.240Z</updated>
   <id>https://serein.icu/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://serein.icu/posts/7.html"/>
     <id>https://serein.icu/posts/7.html</id>
     <published>2022-04-08T03:30:00.000Z</published>
-    <updated>2022-04-08T03:46:45.377Z</updated>
+    <updated>2022-04-08T05:46:33.240Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="前端Vue核心"><a href="#前端Vue核心" class="headerlink" title="前端Vue核心"></a>前端Vue核心</h1><blockquote><p><strong>开发一个前端模块可以概括为以下几个步骤：</strong></p><ol><li>写静态页面、拆分为静态组件；</li><li>发请求（API）；</li><li>vuex（actions、mutations、state三连操作）；</li><li>组件获取仓库数据，动态展示；</li></ol></blockquote><h1 id="尚品汇前台商品系统"><a href="#尚品汇前台商品系统" class="headerlink" title="尚品汇前台商品系统"></a>尚品汇前台商品系统</h1><h1 id="尚品汇后台管理系统"><a href="#尚品汇后台管理系统" class="headerlink" title="尚品汇后台管理系统"></a>尚品汇后台管理系统</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="前端Vue核心"><a href="#前端Vue核心" class="headerlink" title="前端Vue核心"></a>前端Vue核心</h1><blockquote><p><strong>开发一个前端模块可以概括为以下几个步骤：</strong></p><ol><li>写静态页面、拆分为静态组件；</li><li>发请求（API）；</li><li>vuex（actions、mutations、state三连操作）；</li><li>组件获取仓库数据，动态展示；</li></ol></blockquote><h1 id="尚品汇前台商品系统"><a href="#尚品汇前台商品系统" class="headerlink" title="尚品汇前台商品系统"></a>尚品汇前台商品系统</h1><h2 id="vue文件目录分析"><a href="#vue文件目录分析" class="headerlink" title="vue文件目录分析"></a>vue文件目录分析</h2><p><strong>public文件夹</strong>：静态资源，webpack进行打包的时候会原封不动打包到dist文件夹中。<br><strong>pubilc/index.html</strong> 是一个模板文件，作用是生成项目的入口文件，webpack打包的js,css也会自动注入到该页面中。我们浏览器访问项目的时候就会默认打开生成好的index.html。</p><blockquote><p><strong>src文件夹（程序员代码文件夹）</strong><br>assets： 存放公用的静态资源<br>components： 非路由组件（全局组件），其他组件放在views或者pages文件夹中<br>App.vue： 唯一的根组件<br>main.js： 程序入口文件，最先执行的文件</p></blockquote><h2 id="项目配置"><a href="#项目配置" class="headerlink" title="项目配置"></a>项目配置</h2><h3 id="项目运行，浏览器自动打开"><a href="#项目运行，浏览器自动打开" class="headerlink" title="项目运行，浏览器自动打开"></a>项目运行，浏览器自动打开</h3><pre class="line-numbers language-package.json" data-language="package.json"><code class="language-package.json">"scripts": {  "serve": "vue-cli-service serve --open",  "build": "vue-cli-service build",  "lint": "vue-cli-service lint"}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h1 id="尚品汇后台管理系统"><a href="#尚品汇后台管理系统" class="headerlink" title="尚品汇后台管理系统"></a>尚品汇后台管理系统</h1>]]></content>
     
     
       
