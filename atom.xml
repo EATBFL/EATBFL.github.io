@@ -6,7 +6,7 @@
   <link href="https://serein.icu/atom.xml" rel="self"/>
   
   <link href="https://serein.icu/"/>
-  <updated>2022-04-09T08:26:59.948Z</updated>
+  <updated>2022-04-09T09:07:45.982Z</updated>
   <id>https://serein.icu/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://serein.icu/posts/8.html"/>
     <id>https://serein.icu/posts/8.html</id>
     <published>2022-04-09T08:20:00.000Z</published>
-    <updated>2022-04-09T08:26:59.948Z</updated>
+    <updated>2022-04-09T09:07:45.982Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Vue组件通信总结"><a href="#Vue组件通信总结" class="headerlink" title="Vue组件通信总结"></a>Vue组件通信总结</h1><h2 id="组件通信方式一：props"><a href="#组件通信方式一：props" class="headerlink" title="组件通信方式一：props"></a>组件通信方式一：props</h2><p><strong>使用场景：[父子通信]</strong></p><blockquote><p>注意事项：</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="Vue组件通信总结"><a href="#Vue组件通信总结" class="headerlink" title="Vue组件通信总结"></a>Vue组件通信总结</h1><h2 id="组件通信方式一：props"><a href="#组件通信方式一：props" class="headerlink" title="组件通信方式一：props"></a>组件通信方式一：props</h2><p><strong>使用场景：[父子通信]</strong></p><blockquote><p>注意事项：<br>如果父组件给子组件传递数据（函数），本质其实是子组件给父组件传递数据<br>如果父组件给子组件传递的数据（非函数），本质就是父组件给子组件传递数据</p></blockquote><p><strong>接收数据：</strong><br>第一种方式（只接收）：props : [‘name’]<br>第二种方式（限制类型）：props : {name:String}<br>第三种方式（限制类型、限制必要性、指定默认值）：</p><pre class="line-numbers language-none"><code class="language-none">props:{   name:{     type:String, //类型     required:true, //必要性     default:'老王' //默认值   }}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p><strong>路由的props配置</strong><br>​作用：让路由组件更方便的收到参数</p><pre class="line-numbers language-none"><code class="language-none">{   name:'xiangqing',   path:'detail/:id',   component:Detail,   //第一种写法：props值为对象，该对象中所有的key-value的组合最终都会通过props传给Detail组件   props:{a:900}   //第二种写法：props值为布尔值，布尔值为true，则把路由收到的所有params参数通过props传给Detail组件   props:true      //第三种写法：props值为函数，该函数返回的对象中每一组key-value都会通过props传给Detail组件   props(route){      return {         id:route.query.id,         title:route.query.title      }   }}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="组件通信方式二：自定义事件"><a href="#组件通信方式二：自定义事件" class="headerlink" title="组件通信方式二：自定义事件"></a>组件通信方式二：自定义事件</h2><p><strong>使用场景：[子组件给父组件传递数据]</strong><br>$on与$emit</p><h2 id="组件通信方式三：全局事件总线-bus"><a href="#组件通信方式三：全局事件总线-bus" class="headerlink" title="组件通信方式三：全局事件总线$bus"></a>组件通信方式三：全局事件总线$bus</h2><p><strong>使用场景：[万能]</strong><br>Vue.prototype.$bus = this</p><h2 id="组件通信方式四：pubsub-js（消息订阅与发布）"><a href="#组件通信方式四：pubsub-js（消息订阅与发布）" class="headerlink" title="组件通信方式四：pubsub.js（消息订阅与发布）"></a>组件通信方式四：pubsub.js（消息订阅与发布）</h2><p><strong>在React框架中使用较多，在Vue中基本不用</strong><br><strong>使用场景：[万能]</strong></p><h2 id="组件通信方式五：Vuex（使用场景较多）"><a href="#组件通信方式五：Vuex（使用场景较多）" class="headerlink" title="组件通信方式五：Vuex（使用场景较多）"></a>组件通信方式五：Vuex（使用场景较多）</h2><p><strong>使用场景：[万能]</strong></p><h2 id="组件通信方式六：插槽"><a href="#组件通信方式六：插槽" class="headerlink" title="组件通信方式六：插槽"></a>组件通信方式六：插槽</h2><p><strong>使用场景：[父子组件间通信（一般是HTML结构）]</strong></p><ul><li>默认插槽</li><li>具名插槽</li><li>作用域插槽：子组件的数据来源于父组件，但是子组件决定不了自身结构与外观。</li></ul>]]></content>
     
     
       
