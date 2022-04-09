@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Vue组件通信总结</title>
+      <link href="/posts/8.html"/>
+      <url>/posts/8.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Vue组件通信总结"><a href="#Vue组件通信总结" class="headerlink" title="Vue组件通信总结"></a>Vue组件通信总结</h1><h2 id="组件通信方式一：props"><a href="#组件通信方式一：props" class="headerlink" title="组件通信方式一：props"></a>组件通信方式一：props</h2><p><strong>使用场景：[父子通信]</strong></p><blockquote><p>注意事项：</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vue </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
+            
+            <tag> 组件通信 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>尚品汇Vue项目总结</title>
       <link href="/posts/7.html"/>
       <url>/posts/7.html</url>
