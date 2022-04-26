@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://serein.icu/posts/11.html</loc>
+    
+    <lastmod>2022-04-26</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://serein.icu/posts/10.html</loc>
     
     <lastmod>2022-04-26</lastmod>
@@ -220,6 +227,13 @@
     <priority>0.6</priority>
   </url>
   
+  <url>
+    <loc>https://serein.icu/tags/Svg/</loc>
+    <lastmod>2022-04-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
 
   
   <url>
@@ -252,6 +266,13 @@
   
   <url>
     <loc>https://serein.icu/categories/Canvas/</loc>
+    <lastmod>2022-04-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://serein.icu/categories/Svg/</loc>
     <lastmod>2022-04-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
