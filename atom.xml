@@ -6,7 +6,7 @@
   <link href="https://serein.icu/atom.xml" rel="self"/>
   
   <link href="https://serein.icu/"/>
-  <updated>2022-04-27T01:39:09.728Z</updated>
+  <updated>2022-04-27T06:21:12.472Z</updated>
   <id>https://serein.icu/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://serein.icu/posts/12.html"/>
     <id>https://serein.icu/posts/12.html</id>
     <published>2022-04-27T01:38:00.000Z</published>
-    <updated>2022-04-27T01:39:09.728Z</updated>
+    <updated>2022-04-27T06:21:12.472Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Echart"><a href="#Echart" class="headerlink" title="Echart"></a>Echart</h1>]]></content>
+    <content type="html"><![CDATA[<h1 id="Echarts"><a href="#Echarts" class="headerlink" title="Echarts"></a>Echarts</h1><p><strong><a href="https://echarts.apache.org/zh/index.html">Echarts官网</a></strong></p><h2 id="入门案例：销售柱状图"><a href="#入门案例：销售柱状图" class="headerlink" title="入门案例：销售柱状图"></a>入门案例：销售柱状图</h2><p><img src="https://cdn.jsdelivr.net/gh/EATBFL/studyblog/study/Echarts/echarts%E7%9A%84%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.png"></p><p>::: details</p><pre class="line-numbers language-none"><code class="language-none">&lt;!-- 引入echarts依赖包 --&gt;&lt;script src="https://cdn.bootcdn.net/ajax/libs/echarts/5.1.2/echarts.js"&gt;&lt;/script&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><pre class="line-numbers language-CSS" data-language="CSS"><code class="language-CSS">*{    margin: 0;    padding: 0;}div{    width: 800px;    height: 400px;}<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><pre class="line-numbers language-HTML" data-language="HTML"><code class="language-HTML">&lt;!-- 准备一个容器：容器就是显示图标区域 --&gt;&lt;div&gt;&lt;/div&gt;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><pre class="line-numbers language-JS" data-language="JS"><code class="language-JS">//基于准备好的DOM初始化echarts实例let dom = document.querySelector('div');//创建echarts实例let mycharts = echarts.init(dom);//指定图表的配置项与数据mycharts.setOption({  //图表的标题  title:{    //主标题的设置    text:'数据可视化',    //子标题    subtext:"echarts基本使用",    //主标题的颜色    textStyle:{        color:'black'    },    //设置标题位置    left:'center'  },  //x轴的配置项  xAxis:{      //数据      data:["衣服",'直播','游戏','电影']  },  //y轴的配置项  yAxis:{      //显示Y轴的线      axisLine:{          show:true      },      //显示Y轴刻度      axisTick:{          show:true      }  },  //系列的设置：绘制什么样类型的图表、数据的展示在这里设置  series:[      {           //图表类型的设置          type:"bar",          //图表的数据 bar柱状图  line折线图 pie饼图          data:[10,20,30,40],          color:'#d53a35'      }  ]});<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>:::</p><h2 id=""><a href="#" class="headerlink" title=""></a></h2>]]></content>
     
     
       
       
-    <summary type="html">&lt;h1 id=&quot;Echart&quot;&gt;&lt;a href=&quot;#Echart&quot; class=&quot;headerlink&quot; title=&quot;Echart&quot;&gt;&lt;/a&gt;Echart&lt;/h1&gt;</summary>
+    <summary type="html">&lt;h1 id=&quot;Echarts&quot;&gt;&lt;a href=&quot;#Echarts&quot; class=&quot;headerlink&quot; title=&quot;Echarts&quot;&gt;&lt;/a&gt;Echarts&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://echarts.apache.org/zh/ind</summary>
       
     
     
