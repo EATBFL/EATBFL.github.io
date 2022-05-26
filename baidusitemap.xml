@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://serein.icu/posts/2.html</loc>
+    <lastmod>2022-05-26</lastmod>
+  </url>
+  <url>
+    <loc>https://serein.icu/posts/3.html</loc>
+    <lastmod>2022-05-26</lastmod>
+  </url>
+  <url>
+    <loc>https://serein.icu/posts/4.html</loc>
+    <lastmod>2022-05-26</lastmod>
+  </url>
+  <url>
     <loc>https://serein.icu/posts/7.html</loc>
     <lastmod>2022-05-25</lastmod>
   </url>
@@ -29,24 +41,12 @@
     <lastmod>2022-04-10</lastmod>
   </url>
   <url>
-    <loc>https://serein.icu/posts/3.html</loc>
-    <lastmod>2022-03-29</lastmod>
-  </url>
-  <url>
     <loc>https://serein.icu/posts/6.html</loc>
     <lastmod>2022-03-29</lastmod>
   </url>
   <url>
     <loc>https://serein.icu/posts/5.html</loc>
     <lastmod>2022-03-19</lastmod>
-  </url>
-  <url>
-    <loc>https://serein.icu/posts/4.html</loc>
-    <lastmod>2022-03-16</lastmod>
-  </url>
-  <url>
-    <loc>https://serein.icu/posts/2.html</loc>
-    <lastmod>2022-03-14</lastmod>
   </url>
   <url>
     <loc>https://serein.icu/posts/1.html</loc>
