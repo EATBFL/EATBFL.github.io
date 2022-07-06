@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://serein.icu/posts/5.html</loc>
+    <lastmod>2022-07-06</lastmod>
+  </url>
+  <url>
     <loc>https://serein.icu/posts/7.html</loc>
     <lastmod>2022-07-06</lastmod>
   </url>
@@ -51,9 +55,5 @@
   <url>
     <loc>https://serein.icu/posts/14.html</loc>
     <lastmod>2022-07-06</lastmod>
-  </url>
-  <url>
-    <loc>https://serein.icu/posts/5.html</loc>
-    <lastmod>2022-03-19</lastmod>
   </url>
 </urlset> 
